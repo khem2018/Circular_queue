@@ -51,7 +51,6 @@ class Circular_queue:
         initial_pointer = self._head
         counter = 0
         while counter <=self._size:
-            print(initial_pointer._data)
             print('Circular_queue: {}'.format(initial_pointer._data))
             initial_pointer = initial_pointer._nxt
             counter+=1
